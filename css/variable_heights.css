@@ -1,0 +1,19 @@
+.cards {
+    display: flex;
+}
+.card {
+    font-size: 1.2rem;
+    border: 2px solid black;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.card .footer {
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.card .body {
+    flex : 1;
+
+}
